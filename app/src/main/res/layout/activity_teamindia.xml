@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="sport.mnapps.com.sample1.teamindia">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="R Ashwin"
+            android:onClick="ind1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="S Dhawan"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="ind2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="ms dhoni"
+            android:onClick="ind3"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Gautam Gambhir"
+            android:onClick="ind4"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="dinesh kartik"
+            android:onClick="ind5"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="Virat kohli"
+            android:onClick="ind6"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Bhuvneshwar kumar"
+            android:onClick="ind7"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Amit mishra"
+            android:onClick="ind8"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mohammed Shami"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="ind9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="pragyan ojha"
+            android:onClick="ind10"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="C pujara"
+            android:onClick="ind11"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Suresh Raina"
+            android:onClick="ind12"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ambati rayudu"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="ind13"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wriddhiman saha"
+            android:onClick="ind14"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ishant sharma"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="ind15"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="mohit sharma"
+            android:onClick="ind16"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="rohit sharma"
+            android:onClick="ind17"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sachin tendulkar"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="ind18"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="jaydev unadkat"
+            android:onClick="ind19"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="murali vijay"
+            android:onClick="ind20"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="umesh yadav"
+            android:onClick="ind21"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="yuvraj singh"
+            android:onClick="ind22"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

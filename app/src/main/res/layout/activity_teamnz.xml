@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="sport.mnapps.com.sample1.teamnz">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="Kane williamson"
+            android:onClick="nz1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="corey anderson"
+            android:onClick="nz2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="trent boult"
+            android:onClick="nz3"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="neil broom"
+            android:onClick="nz4"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="colin de grandhomme"
+            android:onClick="nz5"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Tom latham"
+            android:onClick="nz6"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="mitchell mccleneghan"
+            android:onClick="nz7"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adam milne"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="nz8"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="James neesham"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="nz9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="jeetan patel"
+            android:onClick="nz10"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="luke ronchi"
+            android:onClick="nz11"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="mitchell santner"
+            android:onClick="nz12"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="tim southee"
+            android:onClick="nz13"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="ross taylor"
+            android:onClick="nz14"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

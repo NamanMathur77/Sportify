@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background1"
+    tools:context="sport.mnapps.com.sample1.cricketmenu">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#E0F7FA"
+        android:id="@+id/playerinfo"
+        android:layout_alignParentTop="true"
+        android:text="Players Information"
+        android:onClick="playerinfo"
+        android:layout_margin="5dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ranking"
+        android:layout_below="@id/playerinfo"
+        android:layout_margin="5dp"
+        android:background="#E0F7FA"
+        android:id="@+id/rankings"
+        android:onClick="cricketranking"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CricBuzz"
+        android:layout_below="@+id/rankings"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+        android:onClick="cricbuzz"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

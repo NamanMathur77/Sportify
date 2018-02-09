@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="sport.mnapps.com.sample1.teampak">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="sarfraz ahmed"
+            android:onClick="pak1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="ahmed shezad"
+            android:onClick="pak2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="azhar ali"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="pak3"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="babar azam"
+            android:onClick="pak4"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="faheem ashraf"
+            android:onClick="pak5"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="fakhar zaman"
+            android:onClick="pak6"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="haris sohail"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="pak7"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="hasan ali"
+            android:onClick="pak8"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="imad wasim"
+            android:onClick="pak9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="junaid khan"
+            android:onClick="pak10"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="mohammad amir"
+            android:onClick="pak11"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="mohammad hafeez"
+            android:onClick="pak12"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+
+            android:text="raees khan"
+            android:onClick="pak13"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="shadab khan"
+            android:onClick="pak14"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="shoaib malik"
+            android:onClick="pak15"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="umar akmal"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="pak16"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wahab riaz"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="pak17"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

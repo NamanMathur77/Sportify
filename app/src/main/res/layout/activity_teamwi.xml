@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="sport.mnapps.com.sample1.teamwi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Devendra bishoo"
+            android:onClick="wi1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="Jermiane blackwood"
+            android:onClick="wi2"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="Kraigg Brathwaite "
+            android:onClick="wi3"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Darren Bravo"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="wi4"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rajendra Chandrika"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="wi5"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Sheldon Cottrell"
+            android:onClick="wi6"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Shane Dowrich"
+            android:onClick="wi7"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shannon Gabriel"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:onClick="wi8"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Jason Holder"
+            android:onClick="wi9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Shai Hope"
+            android:onClick="wi10"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Leon Johnson"
+            android:onClick="wi11"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Denesh Ramdin"
+            android:onClick="wi12"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Kemar Roach"
+            android:onClick="wi13"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Marlon Samuels"
+            android:onClick="wi14"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:text="Jerome Taylor"
+            android:onClick="wi15"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="Dwayne Bravo "
+            android:onClick="wi16"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:background="#E0F7FA"
+            android:layout_margin="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="Chris Gayle"
+            android:onClick="wi17"
+            />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

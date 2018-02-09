@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sport.mnapps.com.sample1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".profile" />
+        <activity android:name=".main2" />
+
+        <service android:name=".MyFIrebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".start1"
+            android:label="@string/title_activity_start1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".stepcounter"
+            android:screenOrientation="portrait" />
+        <activity android:name=".andrewtye" />
+        <activity android:name=".adamzampa" />
+        <activity android:name=".cameronbancroft" />
+        <activity android:name=".denielchristian" />
+        <activity android:name=".davidwarner" />
+        <activity android:name=".glennmaxwell" />
+        <activity android:name=".hiltoncartwright" />
+        <activity android:name=".jasonbehrendorff" />
+        <activity android:name=".joshhazzlewood" />
+        <activity android:name=".jacksonmunro" />
+        <activity android:name=".kanerichardson" />
+        <activity android:name=".moiseshenriques" />
+        <activity android:name=".mitchellmarsh" />
+        <activity android:name=".marcusstoinis" />
+        <activity android:name=".matthewrenshaw" />
+        <activity android:name=".mitchellstarc" />
+        <activity android:name=".matthewwade" />
+        <activity android:name=".nathan" />
+        <activity android:name=".nathanlyon" />
+        <activity android:name=".patrickcummins" />
+        <activity android:name=".peterhandscomb" />
+        <activity android:name=".shaunmarsh" />
+        <activity android:name=".so" />
+        <activity android:name=".stevesmith" />
+        <activity android:name=".shanewatson" />
+        <activity android:name=".travishead" />
+        <activity android:name=".timothypaine" />
+        <activity android:name=".usmankhawaja" />
+        <activity android:name=".ban1" />
+        <activity android:name=".ban2" />
+        <activity android:name=".ban3" />
+        <activity android:name=".ban4" />
+        <activity android:name=".ban5" />
+        <activity android:name=".ban6" />
+        <activity android:name=".ban7" />
+        <activity android:name=".ban8" />
+        <activity android:name=".ban9" />
+        <activity android:name=".ban10" />
+        <activity android:name=".ban11" />
+        <activity android:name=".ban12" />
+        <activity android:name=".ban13" />
+        <activity android:name=".ban14" />
+        <activity android:name=".eng1" />
+        <activity android:name=".eng2" />
+        <activity android:name=".eng3" />
+        <activity android:name=".eng4" />
+        <activity android:name=".eng5" />
+        <activity android:name=".eng6" />
+        <activity android:name=".eng7" />
+        <activity android:name=".eng8" />
+        <activity android:name=".eng9" />
+        <activity android:name=".eng10" />
+        <activity android:name=".eng11" />
+        <activity android:name=".eng12" />
+        <activity android:name=".eng13" />
+        <activity android:name=".eng14" />
+        <activity android:name=".eng15" />
+        <activity android:name=".eng16" />
+        <activity android:name=".eng17" />
+        <activity android:name=".eng18" />
+        <activity android:name=".eng19" />
+        <activity android:name=".ind1" />
+        <activity android:name=".ind2" />
+        <activity android:name=".ind3" />
+        <activity android:name=".ind4" />
+        <activity android:name=".ind5" />
+        <activity android:name=".ind6" />
+        <activity android:name=".ind7" />
+        <activity android:name=".ind8" />
+        <activity android:name=".ind9" />
+        <activity android:name=".ind10" />
+        <activity android:name=".ind11" />
+        <activity android:name=".ind12" />
+        <activity android:name=".ind13" />
+        <activity android:name=".ind14" />
+        <activity android:name=".ind15" />
+        <activity android:name=".ind16" />
+        <activity android:name=".ind17" />
+        <activity android:name=".ind18" />
+        <activity android:name=".ind19" />
+        <activity android:name=".ind20" />
+        <activity android:name=".ind21" />
+        <activity android:name=".ind22" />
+        <activity android:name=".nz1" />
+        <activity android:name=".nz2" />
+        <activity android:name=".nz3" />
+        <activity android:name=".nz4" />
+        <activity android:name=".nz5" />
+        <activity android:name=".nz6" />
+        <activity android:name=".nz7" />
+        <activity android:name=".nz8" />
+        <activity android:name=".nz9" />
+        <activity android:name=".nz10" />
+        <activity android:name=".nz11" />
+        <activity android:name=".nz12" />
+        <activity android:name=".nz14" />
+        <activity android:name=".nz13" />
+        <activity android:name=".pak1" />
+        <activity android:name=".pak2" />
+        <activity android:name=".pak3" />
+        <activity android:name=".pak4" />
+        <activity android:name=".pak5" />
+        <activity android:name=".pak6" />
+        <activity android:name=".pak7" />
+        <activity android:name=".pak8" />
+        <activity android:name=".pak9" />
+        <activity android:name=".pak10" />
+        <activity android:name=".pak11" />
+        <activity android:name=".pak12" />
+        <activity android:name=".pak13" />
+        <activity android:name=".pak14" />
+        <activity android:name=".pak15" />
+        <activity android:name=".pak16" />
+        <activity android:name=".pak17" />
+        <activity android:name=".sa1" />
+        <activity android:name=".sa2" />
+        <activity android:name=".sa3" />
+        <activity android:name=".sa4" />
+        <activity android:name=".sa5" />
+        <activity android:name=".sa6" />
+        <activity android:name=".sa7" />
+        <activity android:name=".sa8" />
+        <activity android:name=".sa9" />
+        <activity android:name=".sa11" />
+        <activity android:name=".sa10" />
+        <activity android:name=".sa12" />
+        <activity android:name=".sa13" />
+        <activity android:name=".sa14" />
+        <activity android:name=".sa15" />
+        <activity android:name=".sa16" />
+        <activity android:name=".sa17" />
+        <activity android:name=".sa18" />
+        <activity android:name=".sa19" />
+        <activity android:name=".sa20" />
+        <activity android:name=".sl1" />
+        <activity android:name=".sl2" />
+        <activity android:name=".sl3" />
+        <activity android:name=".sl4" />
+        <activity android:name=".sl5" />
+        <activity android:name=".sl6" />
+        <activity android:name=".sl7" />
+        <activity android:name=".sl8" />
+        <activity android:name=".sl9" />
+        <activity android:name=".sl10" />
+        <activity android:name=".sl11" />
+        <activity android:name=".sl12" />
+        <activity android:name=".sl13" />
+        <activity android:name=".sl14" />
+        <activity android:name=".sl15" />
+        <activity android:name=".sl16" />
+        <activity android:name=".sl17" />
+        <activity android:name=".wi1" />
+        <activity android:name=".wi2" />
+        <activity android:name=".wi3" />
+        <activity android:name=".wi4" />
+        <activity android:name=".wi5" />
+        <activity android:name=".wi6" />
+        <activity android:name=".wi7" />
+        <activity android:name=".wi8" />
+        <activity android:name=".wi9" />
+        <activity android:name=".wi10" />
+        <activity android:name=".wi11" />
+        <activity android:name=".wi12" />
+        <activity android:name=".wi13" />
+        <activity android:name=".wi14" />
+        <activity android:name=".wi15" />
+        <activity android:name=".wi16" />
+        <activity android:name=".wi17" />
+        <activity android:name=".jamesfaulkner" />
+        <activity android:name=".cricketmenu" />
+        <activity android:name=".cricketteams" />
+        <activity android:name=".teamaustralia" />
+        <activity android:name=".imagedownload" />
+        <activity android:name=".teambangladesh" />
+        <activity android:name=".teamengland" />
+        <activity android:name=".teamindia" />
+        <activity android:name=".teamnz" />
+        <activity android:name=".teampak" />
+        <activity android:name=".teamsa" />
+        <activity android:name=".teamsl" />
+        <activity android:name=".teamwi" />
+        <activity android:name=".hocketteams" />
+        <activity
+            android:name=".uefac"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ufc"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".football"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".footballplayers" />
+        <activity android:name=".footballteam" />
+
+        <receiver android:name=".NewAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/new_app_widget_info" />
+        </receiver>
+
+        <activity android:name=".football1" />
+        <activity
+            android:name=".bb"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wwe"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".hockey" />
+        <activity
+            android:name=".hockeynews"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".players" />
+        <activity android:name=".cricketnews" />
+        <activity android:name=".cricketranking" />
+        <activity android:name=".cricketodiranking" />
+        <activity android:name=".crickettestranking" />
+        <activity android:name=".crickett20ranking" />
+        <activity android:name=".ufcmenu" />
+        <activity android:name=".ufctitles" />
+        <activity
+            android:name=".cricbuzz"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".sd" />
+    </application>
+
+</manifest>

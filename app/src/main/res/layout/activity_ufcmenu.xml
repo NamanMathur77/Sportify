@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background4"
+    tools:context="sport.mnapps.com.sample1.ufcmenu">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFCDD2"
+        android:layout_margin="5dp"
+        android:text="ufc Official"
+        android:onClick="ufc"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="#FFCDD2"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:text="Title Holders"
+        android:onClick="titleholders"/>
+
+</LinearLayout>

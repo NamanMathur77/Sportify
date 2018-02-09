@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context="sport.mnapps.com.sample1.football1">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latest news"
+        android:layout_alignParentTop="true"
+        android:background="#B2DFDB"
+        android:id="@+id/news"
+        android:layout_margin="5dp"
+        android:onClick="news"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tournaments"
+        android:layout_below="@+id/news"
+        android:background="#B2DFDB"
+        android:layout_margin="5dp"
+        android:id='@+id/tours'
+        android:onClick="uefac"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Teams"
+        android:background="#B2DFDB"
+        android:layout_margin="5dp"
+        android:layout_below="@id/tours"
+        android:id="@+id/tt"
+        android:onClick="footteam"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Players"
+        android:background="#B2DFDB"
+        android:layout_below="@+id/tt"
+        android:layout_margin="5dp"
+        android:onClick="Players"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sport.mnapps.com.sample1.MainActivity">
+
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/registerback">
+     <ImageView
+         android:layout_width="300dp"
+         android:layout_height="88dp"
+         android:layout_gravity="center"
+         android:scaleType="fitCenter"
+         android:src="@drawable/registerback2" />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="REGISTER PLEASE"
+         android:layout_gravity="center"
+         android:textStyle="bold"
+         android:textSize="25dp"/>
+
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/edittextemail"
+         android:hint="Enter Your Email"
+         android:inputType="textEmailAddress"/>
+
+
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/edittextpassword"
+         android:hint="Enter Your Password"
+         android:inputType="textPassword"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Register User"
+         android:background="#FCE4EC"
+         android:id="@+id/buttonregister"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/textViewSignin"
+         android:text="Already Registered? Signin here"
+         android:textAlignment="center"
+         android:textStyle="bold"/>
+
+
+
+
+ </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

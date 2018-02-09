@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="sport.mnapps.com.sample1.teambangladesh">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+        android:layout_width="match_parent"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:layout_height="wrap_content"
+        android:text="Mashrafe Mortaza"
+        android:onClick="ban1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:layout_height="wrap_content"
+        android:text="Imrul Kayes"
+        android:onClick="ban2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mohammad Mahmudullah"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:onClick="ban3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:text="Mehidy Miraz"
+        android:onClick="ban4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:text="Mosaddek saikat"
+        android:onClick="ban5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:text="Mohammad Rahim"
+        android:onClick="ban6"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:text="Mustafizur Rahman"
+        android:onClick="ban7"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:text="MOhammad Hossain"
+        android:onClick="ban8"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:text="Mohammad Rahman"
+        android:onClick="ban9"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:text="shafiul Islam"
+        android:onClick="ban10"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shakib Al Hassan"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:onClick="ban11"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Soumya Sarkar"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:onClick="ban12"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunzamul Islam"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:onClick="ban13"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tamim Iqbal"
+        android:background="#E0F7FA"
+        android:layout_margin="5dp"
+
+        android:onClick="ban14"
+        />
+    </LinearLayout>
+
+</ScrollView>

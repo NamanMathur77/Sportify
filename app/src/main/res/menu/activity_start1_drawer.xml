@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cricket"
+            android:icon="@drawable/cricketicon"
+            android:title="Cricket" />
+        <item
+            android:id="@+id/nav_football"
+            android:icon="@drawable/footballicon"
+            android:title="Football" />
+        <item
+            android:id="@+id/nav_hockey"
+            android:icon="@drawable/hockeyicon"
+            android:title="Hockey" />
+        <item
+            android:id="@+id/nav_ufc"
+            android:icon="@drawable/ufc"
+            android:title="UFC" />
+        <item
+            android:id="@+id/wwe"
+            android:icon="@drawable/wwe"
+            android:title="WWE"/>
+        <item
+            android:id="@+id/basketball"
+            android:icon="@drawable/basketballicon"
+            android:title="BasketBall"/>
+    </group>
+    <item android:title="Sports Direct">
+        <menu>
+            <item
+                android:id="@+id/SD"
+                android:title="Sports Direct"
+                android:icon="@drawable/sd"/>
+        </menu>
+    </item>
+
+    <item android:title="Miscellaneous">
+        <menu>
+            <item
+                android:id="@+id/runner"
+                android:icon="@drawable/bam"
+                android:title="Runner" />
+
+        </menu>
+    </item>
+
+</menu>
