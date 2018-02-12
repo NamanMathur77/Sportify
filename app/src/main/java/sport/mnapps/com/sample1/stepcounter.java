@@ -1,6 +1,7 @@
 package sport.mnapps.com.sample1;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -41,7 +42,7 @@ public class stepcounter extends AppCompatActivity implements SensorEventListene
         TvCal=(TextView)findViewById(R.id.tv_cal);
         TvDist=(TextView)findViewById(R.id.tv_dist);
         BtnStart = (Button) findViewById(R.id.btn_start);
-        BtnStop = (Button) findViewById(R.id.btn_stop);
+        
 
 
 
@@ -52,20 +53,17 @@ public class stepcounter extends AppCompatActivity implements SensorEventListene
 
                 numSteps = 0;
                 sensorManager.registerListener(stepcounter.this, accel, SensorManager.SENSOR_DELAY_FASTEST);
+                BtnStart.setText("Restart");
+                TvDist.setText("Distance Covered (in km) :- 0");
+                TvCal.setText("Calories Burned :- 0");
+                TvSteps.setText(TEXT_NUM_STEPS+0);
+                BtnStart.setBackgroundColor(Color.parseColor("#F44336"));
 
             }
         });
 
 
-        BtnStop.setOnClickListener(new View.OnClickListener() {
 
-            @Override
-            public void onClick(View arg0) {
-
-                sensorManager.unregisterListener(stepcounter.this);
-
-            }
-        });
 
 
 
@@ -90,10 +88,10 @@ public class stepcounter extends AppCompatActivity implements SensorEventListene
         numSteps++;
         TvSteps.setText(TEXT_NUM_STEPS + numSteps);
         calories= (float) (numSteps*0.045);
-        TvCal.setText("Calories Burned - "+calories);
+        TvCal.setText("Calories Burned :- "+calories);
 
         distance= (float) (numSteps*0.0005);
-        TvDist.setText("Distance Covered (in km) - "+distance);
+        TvDist.setText("Distance Covered (in km) :- "+distance);
     }
     public void onBackPressed(){
         Intent intent= new Intent(stepcounter.this,start1.class);
@@ -104,4 +102,3 @@ public class stepcounter extends AppCompatActivity implements SensorEventListene
 
 
 }
-
