@@ -34,7 +34,7 @@ Just go to Playstore and type Sports Addict and install the application.
 ![screenshot5](https://lh3.googleusercontent.com/H_HhMyfRbHCSbRuffyDFt9xCo8knjqFyOjANUUV7t4mNKC8gPMcQ2t3K61RlTklCocM=w1536-h734-rw)
 
 ## Future Plan
-Instead of giving control to the admin for displaying the latest news web crawling of APIs could by used for diaplaying the news from different news portals.
+Instead of giving control to the admin for displaying the latest news web crawling or APIs could by used for diaplaying the news from different news portals.
 
 ## Author
 Naman Mathur [naman@github](https://github.com/NamanMathur77)
